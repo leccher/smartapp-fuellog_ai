@@ -19,11 +19,15 @@ A modern, intelligent Flutter application designed to effortlessly track vehicle
 
 To run this application, you need a Google Generative AI API Key from [Google AI Studio](https://aistudio.google.com). 
 
+You can add an .env file and add it into the pubspec.yml assets section.
+
 1. Create a file named `.env` in the root directory of the project.
 2. Add your API key inside the file:
    ```env
    GEMINI_API_KEY=your_actual_api_key_here
    ```
+
+Or in the app copy the API key in the specific input of 'Setting page'
 
 ## 🛠️ Tech Stack
 
@@ -58,7 +62,7 @@ Make sure you have the [Flutter SDK](https://docs.flutter.dev/get-started/instal
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/refuellog.git](https://github.com/your-username/refuellog.git)
+   git clone [https://github.com/leccher/smartapp-fuellog_ai.git](https://github.com/leccher/smartapp-fuellog_ai.git)
    cd refuellog
    ```
 
